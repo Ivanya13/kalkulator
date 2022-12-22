@@ -39,7 +39,7 @@ public class TambahAngka extends javax.swing.JFrame {
         HASIL_TEXT = new javax.swing.JTextField();
         TAMBAH_BUTTON = new javax.swing.JButton();
         CLEAR_BUTTON = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        Button1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAutoRequestFocus(false);
@@ -170,10 +170,10 @@ public class TambahAngka extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("jButton1");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        Button1.setText("kurang");
+        Button1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                Button1ActionPerformed(evt);
             }
         });
 
@@ -200,7 +200,7 @@ public class TambahAngka extends javax.swing.JFrame {
                 .addGap(19, 19, 19))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(168, 168, 168)
-                .addComponent(jButton1)
+                .addComponent(Button1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -215,7 +215,7 @@ public class TambahAngka extends javax.swing.JFrame {
                 .addGap(39, 39, 39)
                 .addComponent(PANEL3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton1)
+                .addComponent(Button1)
                 .addGap(12, 12, 12)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(TAMBAH_BUTTON, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -257,9 +257,9 @@ public class TambahAngka extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_ANGKAPERTAMA_TEXTActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void Button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_Button1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -301,6 +301,7 @@ public class TambahAngka extends javax.swing.JFrame {
     private javax.swing.JTextField ANGKAKEDUA_TEXT;
     private javax.swing.JLabel ANGKAPERTAMA_LBL;
     private javax.swing.JTextField ANGKAPERTAMA_TEXT;
+    private javax.swing.JButton Button1;
     private javax.swing.JButton CLEAR_BUTTON;
     private javax.swing.JLabel HASIL_LBL;
     private javax.swing.JTextField HASIL_TEXT;
@@ -309,7 +310,6 @@ public class TambahAngka extends javax.swing.JFrame {
     private javax.swing.JPanel PANEL3;
     private javax.swing.JLabel PANEL_LBL;
     private javax.swing.JButton TAMBAH_BUTTON;
-    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
